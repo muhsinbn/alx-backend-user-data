@@ -1,0 +1,16 @@
+### Introduction:
+This project is focused on creating a User Authentication Service to handle user registration, login, password management, and secure access to resources. The service will allow users to create accounts, authenticate themselves, and manage their sessions securely using industry-standard authentication practices. Additionally, the service will handle password hashing, token-based authentication, and user session management.
+
+The primary goal is to build a backend service that is secure, scalable, and adheres to best practices for handling sensitive data like user passwords and tokens.  
+
+In the industry, you should not implement your own authentication system and use a module or framework that doing it for you (like in Python-Flask: [Flask-User)](https://intranet.alxswe.com/rltoken/9nVfotMI_1zpEzihMzBeTA). Here, for the learning purpose, we will walk through each step of this mechanism to understand it by doing.
+
+## Resources:
+* [Flask documentation](https://intranet.alxswe.com/rltoken/lKExyvivrrW4eh0eI8UV6A)
+* [Requests module](https://intranet.alxswe.com/rltoken/py7LuuD1u2MUwcaf8wnDzQ)   
+* [HTTP status codes](https://intranet.alxswe.com/rltoken/cj-mc5ZHp_KyXn1yikHC0A) 
+
+## Setup
+You will need to install bcrypt
+
+*pip3 install bcrypt
